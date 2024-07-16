@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family : "myFontGame"
+}
+
+.game {
+    background-image: url("./assets/img/bgGame.png");
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+@font-face {
+    font-family: "myFontGame";
+    src: url("./Font/Pony.ttf");
+}
+
+.xucxac {
+    border: 8px solid black;
+    border-radius: 8px;
+}
+. play {
+    border: 2px solid black;
+}
